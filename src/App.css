@@ -1,0 +1,53 @@
+.todo-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+
+.input {
+  border: 1px solid #CCCCCC;
+}
+
+.button {
+  margin-left: 10px;
+  border: 1px solid #CCCCCC;
+}
+
+.each-todo {
+  list-style-type: none;
+}
+
+.main-container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.each-todo {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.todo-details {
+  flex: 1;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons button {
+  margin-left: 5px;
+}
